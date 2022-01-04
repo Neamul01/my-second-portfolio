@@ -9,9 +9,19 @@ h1 {
     font-size: 50px;
 }
 
-h3 {
-    font-size: 25px;
+h2 {
+    font-size: 40px;
 }
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+
+}
+
 
 .hero-banner-area {
     background-image: url(image/top-banner.png);
@@ -37,10 +47,6 @@ h3 {
     max-width: 70%;
 }
 
-.half-width p {
-    font-size: 20px;
-
-}
 
 
 .link-button {
@@ -56,4 +62,38 @@ h3 {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.inner-experience {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.ex-child {
+    width: 40%;
+    height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.ex-full-developer {
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+.ex-baby-developer {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: gray;
+    font-size: 18px;
 }
